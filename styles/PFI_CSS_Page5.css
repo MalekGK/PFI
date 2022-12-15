@@ -1,0 +1,152 @@
+body {
+    background-image: url(C:/Users/malek/OneDrive/Bureau/PFI/images/background.jpg);
+}
+
+#menu {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkblue;
+    }
+
+        #menu ul li {
+            display: inline-block;
+            padding: 10px 15px;
+            border: solid 2px black;
+            background-color: blue;
+            border-radius: 10%;
+            height: 20px;
+            float: initial;
+        }
+
+            #menu ul li a {
+                color: white;
+                text-decoration: none;
+                font-family: monospace, lucida-sans-typewriter;
+            }
+
+        #menu ul :hover {
+            background-color: darkturquoise;
+        }
+
+::selection {
+    color: white;
+    background: yellow;
+}
+
+@media only screen and (max-width: 800px) {
+    #menu {
+        text-align: left;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+
+        #menu ul {
+            margin: 0;
+            padding: 0;
+            width: 180px;
+            background-color: darkred;
+        }
+
+            #menu ul li {
+                display: block;
+                background-color: firebrick;
+                padding: 8px 16px;
+                border-radius: 10%;
+                text-decoration: none;
+            }
+
+                #menu ul li a {
+                    display: block;
+                    text-align: center;
+                    color: white;
+                    padding: 0px 16px;
+                    text-decoration: none;
+                }
+
+            #menu ul :hover {
+                background-color: red;
+                color: white;
+            }
+
+    ::selection {
+        color: black;
+        background: red;
+    }
+}
+
+.box {
+    text-align: center;
+    color: white;
+    font-family: 'Arial';
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 370px;
+    margin-left: 1400px;
+    padding-top: 20px;
+    display: block;
+    border: solid 2px black;
+    background-color: darkblue;
+    border-radius: 10%;
+    height: 40px;
+    width: 100px;
+    float: right;
+}
+
+.h1 {
+    color: rosybrown;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 45px;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    margin-left: 485px;
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    width: 500px;
+}
+
+.video{
+    width: 420px;
+    height: 315px;
+    margin-left: 525px;
+    margin-top: 50px;
+}
+
+.colonne1 {
+    display: float;
+    float: left;
+    width: 50px;
+    height: 1000px;
+    writing-mode: vertical-lr;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 25px;
+}
+
+.colonne2 {
+    display: float;
+    float: right;
+    width: 50px;
+    height: 1000px;
+    writing-mode: vertical-rl;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 60px;
+    padding-right: 25px;
+}
